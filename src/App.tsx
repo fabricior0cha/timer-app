@@ -71,7 +71,6 @@ export default function App() {
   const handleAddMinute = () => {
     if (active) return;
     setSecondsAmount((state) => state + 60);
-    setTheme("light");
   };
 
   const handleRemoveMinute = () => {
