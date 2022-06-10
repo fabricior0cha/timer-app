@@ -86,7 +86,7 @@ export default function App() {
     <main className="body">
       <div className="container">
         <div className={`stopwatch-${theme}`}>
-          <h1>COUNTDOWN</h1>
+          <h1>TIMER</h1>
           {theme === "dark" ? (
             <button
               title="Change theme"
