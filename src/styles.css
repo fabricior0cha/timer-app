@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  main{
+   
+    width: 100%;
+    height: 100vh;
+  }
+ 
+  .stopwatch-dark h1 {
+    font-size: 48px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+    color: #fff;
+  }
+
+  .stopwatch-light h1 {
+    font-size: 48px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+    color: #2666CF;
+  }
+
+  .buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    font-family: "Josefin Sans", sans-serif;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(38, 102, 207, 1);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background:rgba(38, 102, 207, 1);
+  }
+  .container {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .stopwatch-dark {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 25px;
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .stopwatch-light {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 25px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+   
+    border: 3px solid #ffff;
+    border-radius: 50%;
+  }
+  
+  .time-dark {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+    color: #fff;
+  }
+
+  .circle-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+   
+    border: 3px solid #2666CF;
+    border-radius: 50%;
+  }
+  
+  .time-light {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+    color: #2666CF;
+  }
+    
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+  
