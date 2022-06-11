@@ -35,7 +35,7 @@ export default function App() {
   }, [theme]);
 
   useEffect(() => {
-    let interval: number | undefined;
+    let interval: number;
 
     if (active) {
       interval = setInterval(() => {
@@ -81,6 +81,7 @@ export default function App() {
     }
     return;
   };
+  
   return (
     <main className="body">
       <div className="container">

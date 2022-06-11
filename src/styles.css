@@ -8,6 +8,29 @@ body {
     width: 100%;
     height: 100vh;
   }
+
+  .container {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
  
   .stopwatch-dark h1 {
     font-size: 48px;
@@ -46,28 +69,8 @@ body {
     border-bottom-right-radius:28px;
     background:rgba(38, 102, 207, 1);
   }
-  .container {
-    display: flex;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
+  
+  
   .stopwatch-dark {
     display: grid;
     justify-items: center;
@@ -142,9 +145,5 @@ body {
   
   #playButton {
     display: block;
-  }
-  
-  #pauseButton {
-    display: none;
   }
   
