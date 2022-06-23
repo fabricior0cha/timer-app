@@ -6,6 +6,7 @@ Uma aplicação simples que permite você adicionar um timer de acordo com o tem
 ## Tecnologias
 - React
 - Javascript
+- Typescript
 - CSS
 - Netlify (Deploy)
 
