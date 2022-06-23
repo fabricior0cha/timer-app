@@ -11,5 +11,5 @@ Uma aplicação simples que permite você adicionar um timer de acordo com o tem
 - Netlify (Deploy)
 
 ## Projeto em funcionamento
-<img src="./src/assets/readme.gif">
+<img src="./src/assets/timer.gif">
 
